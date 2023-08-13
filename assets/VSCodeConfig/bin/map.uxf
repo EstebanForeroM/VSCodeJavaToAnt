@@ -1,0 +1,22 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>50</x><y>120</y><w>370</w><h>310</h></coordinates><panel_attributes>DataProcessor
+--
+- data: float[]
+- average: float
+- standardDeviation: float
+--
++ DataProcessor(float[] data)
++ getMax(): float
++ getMin(): float
++ getNMaxElements(int n): float[]
++ getNMinElements(int n): float[]
++ getAverage(): float
++ getStandardDeviation(): float
++ getData(): float[]
++ setData(float[] data): void
++ arrayToString(float[] array): String
+- processData(): void
+- calculateAverage(): float
+- mergeSort(float[] data): float[]
+- copyArray(float[] array, int initialIndex, int finalIndex): float[]
+- calculateStandardDeviation(): float
+</panel_attributes><additional_attributes></additional_attributes></element></diagram>
